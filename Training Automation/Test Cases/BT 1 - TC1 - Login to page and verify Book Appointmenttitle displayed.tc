@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BT 1 - TC1 - Login to page and verify Book Appointmenttitle displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53e3a136-c02a-45d0-a26a-ec2d944b6cb9</testCaseGuid>
+</TestCaseEntity>

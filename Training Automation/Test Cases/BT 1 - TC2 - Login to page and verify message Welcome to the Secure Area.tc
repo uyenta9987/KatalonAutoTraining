@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BT 1 - TC2 - Login to page and verify message Welcome to the Secure Area</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4d4e305-1047-4d7f-b3fe-c5ceb8cf08a3</testCaseGuid>
+</TestCaseEntity>
