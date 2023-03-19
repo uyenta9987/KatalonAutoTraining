@@ -15,39 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo.guru99.com/V4/')
+WebUI.navigateToUrl('https://www.fahasa.com/customer/account/create')
 
-WebUI.waitForPageLoad(5)
+WebUI.click(findTestObject('Paractice 10 - Bai 1 - Fahasa/Tab_DangNhap'))
 
-WebUI.comment('Get UserID Password')
+WebUI.verifyElementNotClickable(findTestObject('Paractice 10 - Bai 1 - Fahasa/Button_DangNhap'))
 
-WebUI.click(findTestObject('Practice 9/Here link'))
+WebUI.setText(findTestObject('Paractice 10 - Bai 1 - Fahasa/Textbox_Username'), '0917868690')
 
-WebUI.waitForPageLoad(5)
+WebUI.setEncryptedText(findTestObject('Paractice 10 - Bai 1 - Fahasa/Textbox_Password'), 'Mht99fgjH2A=')
 
-WebUI.setText(findTestObject('Practice 9/EmailID'), 'uyen.ta@aperia.com')
+WebUI.verifyElementClickable(findTestObject('Paractice 10 - Bai 1 - Fahasa/Button_DangNhap'))
 
-WebUI.click(findTestObject('Practice 9/Button_Submit'))
+WebUI.click(findTestObject('Paractice 10 - Bai 1 - Fahasa/Button_DangNhap'))
 
-WebUI.getText(findTestObject('Practice 9/GetUserName'))
+WebUI.waitForPageLoad(10)
 
-WebUI.getText(findTestObject('Practice 9/GetPassword'))
-
-WebUI.comment('Enter Username Password')
-
-WebUI.navigateToUrl('https://demo.guru99.com/V4/')
-
-WebUI.setText(findTestObject('Practice 9/GetUserName'), '')
-
-WebUI.setText(findTestObject('Practice 9/GetPassword'), '')
-
-WebUI.click(findTestObject('Practice 9/Button_Login'))
-
-WebUI.waitForPageLoad(5)
-
-WebUI.acceptAlert()
-
-WebUI.comment('Check message')
-
-WebUI.waitForElementPresent(findTestObject('Practice 9/TextWelcome'), 0)
+WebUI.verifyElementText(findTestObject('Paractice 10 - Bai 1 - Fahasa/Title_saiPassword'), 'Số điện thoại/Email hoặc Mật khẩu sai!')
 

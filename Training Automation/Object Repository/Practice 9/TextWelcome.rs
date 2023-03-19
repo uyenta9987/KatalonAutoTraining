@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//marquee[@class='heading3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

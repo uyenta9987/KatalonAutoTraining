@@ -15,21 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.fahasa.com/customer/account/create')
+WebUI.navigateToUrl('https://atlassian.design/components/ tooltip/examples')
 
-WebUI.click(findTestObject('LoginFahasa/Tab_DangNhap'))
-
-WebUI.verifyElementNotClickable(findTestObject('LoginFahasa/Button_DangNhap'))
-
-WebUI.setText(findTestObject('LoginFahasa/Textbox_Username'), '0917868690')
-
-WebUI.setEncryptedText(findTestObject('LoginFahasa/Textbox_Password'), 'Mht99fgjH2A=')
-
-WebUI.verifyElementClickable(findTestObject('LoginFahasa/Button_DangNhap'))
-
-WebUI.click(findTestObject('LoginFahasa/Button_DangNhap'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.verifyElementText(findTestObject('LoginFahasa/Title_saiPassword'), 'Số điện thoại/Email hoặc Mật khẩu sai!')
+WebUI.waitForPageLoad(5)
 
